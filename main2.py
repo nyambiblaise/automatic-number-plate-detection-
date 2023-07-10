@@ -34,7 +34,7 @@ while True:
                    cv.FONT_HERSHEY_COMPLEX, 0.3, color, 1)
     endingTime = time.time() - starting_time
     fps = frame_counter/endingTime
-    # print(fps)
+    # print(fps).
     cv.putText(frame, f'FPS: {fps}', (20, 50),
                cv.FONT_HERSHEY_COMPLEX, 0.7, (0, 255, 0), 2)
     cv.imshow('frame', frame)
