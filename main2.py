@@ -8,7 +8,7 @@ COLORS = [(0, 255, 0), (0, 0, 255), (255, 0, 0),
 class_name = []
 with open('cfg/classes.names', 'r') as f:
     class_name = [cname.strip() for cname in f.readlines()]
-    #print(class_name)
+    #print (class_name)
 net = cv.dnn.readNet('weights/yolov4.weights', 'cfg/yolov4.cfg')
 net.setPreferableBackend(cv.dnn.DNN_BACKEND_CUDA)
 net.setPreferableTarget(cv.dnn.DNN_TARGET_CUDA_FP16)
