@@ -1,5 +1,4 @@
 import cv2 as cv
-
 import time
 
 Conf_threshold = 0.4
