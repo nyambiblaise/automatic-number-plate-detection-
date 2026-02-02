@@ -1,7 +1,6 @@
 import cv2 as cv
 import time
 
-
 Conf_threshold = 0.4
 NMS_threshold = 0.4
 COLORS = [(0, 255, 0), (0, 0, 255), (255, 0, 0),
